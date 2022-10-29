@@ -6,7 +6,7 @@
 
 ## Setup the Jaeger and Prometheus source
 ![Alt text](/answer-img/2.grafana.PNG?raw=true "grafana")
-<img src="/answer-img/2.grafana.PNG" alt="grafana" title="grafana">
+
 
 ## Create a Basic Dashboard
 ![Alt text](/answer-img/3.prometheus.PNG?raw=true "prometheus")
@@ -71,15 +71,18 @@ Description: went running backend service route "/star" get a error and the serv
 
 ![Alt text](/answer-img/9.final.PNG?raw=true "final")
 
+1. Bandwidth
+   - Monitoring bandwidth provides visibility into the network and insight into what is happening in the network, which helps prevent potential network downtime, bottlenecks, and bandwidth hogging from hindering network performance.
 
-1. CPU And Memory usage 
+
+2. CPU usage And Memory  
     - measure the memory and CPU to prevent overloading and excessive use of resources 
+    Understand the resource occupancy of CPU and memory, and the health status of healthy servers, so as to avoid resource exhaustion caused by program exceptions, or adjust hardware through resource usage.
 
-2. Services Uptime
-    - Watch the uptime of the backend and frontend service to make sure availability
+Final Dashboard
 
-3. Response time
-    - watch the services responses 
-
-4. HTTP's Errors 
-    - rate the application HTTP's Errors and see if the service API is working correctly 
+receive bandwidth : monitor network receive bytes.
+transmit bandwidth : monitor network transmit bytes.
+network  : monitor network receive bytes total
+cpu usage  :monitor cpu usage seconds total
+memory  : monitor process resident memory bytes
