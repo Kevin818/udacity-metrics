@@ -1,15 +1,15 @@
 **Note:** For the screenshots, you can store all of your answer images in the `answer-img` directory.
 
 ## Verify the monitoring installation
-![Alt text](./answer-img/1.kubectl get pods.PNG?raw=true "kubectl get pods")
+![Alt text](/answer-img/1.kubectl get pods.PNG?raw=true "kubectl get pods")
 
 
 ## Setup the Jaeger and Prometheus source
-![Alt text](./answer-img/2.grafana.PNG?raw=true "grafana")
+![Alt text](/answer-img/2.grafana.PNG?raw=true "grafana")
 
 
 ## Create a Basic Dashboard
-![Alt text](./answer-img/3.prometheus.PNG?raw=true "prometheus")
+![Alt text](/answer-img/3.prometheus.PNG?raw=true "prometheus")
 
 ## Describe SLO/SLI
 SLOs are clear goals. SLI is quantifiable definition and performance.
@@ -27,17 +27,17 @@ For SLO request response time, SLI can be defined as 98% of the request response
 
 
 ## Create a Dashboard to measure our SLIs
-![Alt text](./answer-img/4.dashboard.PNG?raw=true "dashboard")
+![Alt text](/answer-img/4.dashboard.PNG?raw=true "dashboard")
 
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
-![Alt text](./answer-img/6.jaeger1.PNG?raw=true "jaeger")
-![Alt text](./answer-img/6.jaeger2.PNG?raw=true "jaeger")
+![Alt text](/answer-img/6.jaeger1.PNG?raw=true "jaeger")
+![Alt text](/answer-img/6.jaeger2.PNG?raw=true "jaeger")
 
 
 ## Jaeger in Dashboards
 *TODO:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
-![Alt text](./answer-img/7.dashboard2.PNG?raw=true "Jaeger in Dashboards")
+![Alt text](/answer-img/7.dashboard2.PNG?raw=true "Jaeger in Dashboards")
 
 ## Report Error
 *TODO:* Using the template below, write a trouble ticket for the developers, to explain the errors that you are seeing (400, 500, latency) and to let them know the file that is causing the issue also include a screenshot of the tracer span to demonstrate how we can user a tracer to locate errors easily.
@@ -64,12 +64,12 @@ Description: went running backend service route "/star" get a error and the serv
 - Http Errors (4xx or 5xx error)
 
 ## Building KPIs for our plan
-![Alt text](./answer-img/8.KPI.PNG?raw=true "KPIs1")
-![Alt text](./answer-img/8.KPI2.PNG?raw=true "KPIs2")
+![Alt text](/answer-img/8.KPI.PNG?raw=true "KPIs1")
+![Alt text](/answer-img/8.KPI2.PNG?raw=true "KPIs2")
 
 ## Final Dashboard
 
-![Alt text](./answer-img/9.final.PNG?raw=true "final")
+![Alt text](/answer-img/9.final.PNG?raw=true "final")
 
 
 1. CPU And Memory usage 
