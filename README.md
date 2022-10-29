@@ -6,7 +6,7 @@
 
 ## Setup the Jaeger and Prometheus source
 ![Alt text](/answer-img/2.grafana.PNG?raw=true "grafana")
-
+<img src="/answer-img/2.grafana.PNG" alt="grafana" title="grafana">
 
 ## Create a Basic Dashboard
 ![Alt text](/answer-img/3.prometheus.PNG?raw=true "prometheus")
